@@ -7,7 +7,19 @@
 * พฤติกรรมที่การซื้อเปลี่ยนไป เช่น ซื้อผลิตภัณฑ์อื่น, ซื้อน้อยลงกว่าเดิมหรือไม่ซื้ออีกเลย, ระยะเวลาในการกลับมาซื้อนานขึ้นเรื่อย ๆ
 * ลูกค้าไม่พอใจในสินค้าหรือบริการ เช่น มีการร้องเรียน ส่งคืนสินค้า หรือให้คะแนน/รีวิวไม่ดี
 
+
 ## 	:point_right: Churn Prediction สำคัญอย่างไร?
 * ทำให้บริษัทสามารถวิเคราะห์ได้ว่าลูกค้า Churn เพราะปัจจัยใด และหากลยุทธ์/แนวทางเพื่อลดโอกาสในการ Chrun ของลูกค้า
 * สามารถวิเคราะห์ได้ว่าช่วงเวลาใดที่ลูกค้ามีโอกาส Churn สูง และรีบเข้าถึงลูกค้า (เช่น ยิง Ads โฆษณา, ปล่อย promotion) ก่อนที่จะถึงระยะเวลานั้น
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/8e206bfb-1082-4296-b355-395c0003ae79)
+
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7ae3e643-e12f-401c-a8a4-8e6bbb14f7d8)
+
+_ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer-churn-plytrix-analytics/_
+
+## 	:point_right: Machine Learning for Churn Prediction
+ตัวอย่างการใช้งาน Machine Learning เพื่อใช้ Churn prediction สามารถใช้ได้หลาย Algorithm ขึ้นอยู่กับปัจจัย หรือตัวแปรที่เราต้องการนำมาวิเคราะห์ เช่น
+* Logistic Regression
+* Random Forest Classifier
+* K-Nearest Neighbors Classifier
+* SMOTE
+* XGBoost Classifier
