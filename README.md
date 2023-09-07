@@ -1,6 +1,6 @@
 # MADT8101_Seminar in Advanced Analytics
 
-**[Workshop#01_Customer Data Platform (CDP)][https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2301_Customer%20Data%20Platform%20(CDP)](url)**
+**[Workshop#01_Customer Data Platform (CDP)](urlhttps://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2301_Customer%20Data%20Platform%20(CDP))**
 
 **Workshop#02_Customer Single View and Basic Customer Analysis**
 
