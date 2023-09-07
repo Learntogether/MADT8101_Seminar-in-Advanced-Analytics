@@ -1,12 +1,12 @@
 # Workshop#03_Customer Lifetime Value
 
-## Customer Lifetime Value (CLV) คืออะไร?
+## 	:point_right: Customer Lifetime Value (CLV) คืออะไร?
 **CLV** คือ มูลค่าที่ธุรกิจได้รับจากลูกค้าตลอดช่วงระยะเวลาการเป็นลูกค้าของธุรกิจนั้น ๆ (วัดตั้งแต่วันที่เริ่มเป็นลูกค้าจนกระทั่งวันที่เลิกเป็นลูกค้า) ซึ่ง CLV จะสะท้อนประเมินความคุ้มค่าในการบริหารจัดการลูกค้า และเพื่อแนวทางในการทำ Loyalty Program เพื่อดึงดูด และรักษาลูกค้าให้อยู่กับธุรกิจ
 ![image](https://github.com/Learntogether/Workshop03_Customer-Lifetime-Value/assets/136689632/072adbfb-6322-4a4e-85bb-d6e07651daa1)
 
 _ภาพจาก: https://popupsmart.com/encyclopedia/customer-lifetime-value-clv_
 
-## วิธีการคำนวณ CLV
+## 	:point_right: วิธีการคำนวณ CLV
 แนวคิดพื้นฐานสำหรับคำนวณ CLV
 ![image](https://github.com/Learntogether/Workshop03_Customer-Lifetime-Value/assets/136689632/9c6fc6d0-f454-40ce-b0f6-8cbcde1228ab)
 _ภาพจาก: https://delighted.com/blog/customer-lifetime-value-formula_
@@ -14,7 +14,7 @@ _ภาพจาก: https://delighted.com/blog/customer-lifetime-value-formula_
 อย่างไรก็ตาม การคำนวณ CLV ไม่ได้มีสูตรกำหนดตายตัว แต่ผู้วิเคราะห์สามารถปรับให้เหมาะกับธุรกิจ หรือสถานการณ์เพื่อตอบโจทย์ทางธุรกิจที่ต้องการได้
 
 
-## Designed Use case of Customer Lifetime Value and Customer Loyalty Program
+## 	:point_right: Designed Use case of Customer Lifetime Value and Customer Loyalty Program
 ตัวอย่าง Use case ของธุรกิจร้านอาหาร ซึ่งสิ่งสำคัญในการทำ CLV คือ ธุรกิจต้องสามารถระบุให้ได้ว่าปัจจัยที่สำคัญในการคำนวณ CLV คืออะไร และจะออกแบบ Loyalty Program อย่างไร ให้สามารถดึงดูดลูกค้า ควบคู่ไปกับการทำกำไรให้แก่ธุรกิจ
 ![image](https://github.com/Learntogether/Workshop03_Customer-Lifetime-Value/assets/136689632/4ca3f228-6518-4203-97f3-713a72a2f152)
 ![image](https://github.com/Learntogether/Workshop03_Customer-Lifetime-Value/assets/136689632/c9baf29a-2b9e-4320-9346-f020ca234399)
