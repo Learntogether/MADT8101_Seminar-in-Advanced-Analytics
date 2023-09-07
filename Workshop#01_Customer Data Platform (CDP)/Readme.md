@@ -1,12 +1,12 @@
 # Workshop#01_Customer Data Platform (CDP)
 
-## Customer Data Platform (CDP) คืออะไร?
+## :point_right: Customer Data Platform (CDP) คืออะไร?
 CDP คือ Digital Platform ที่รวบรวมข้อมูลของลูกค้าในทุกช่องทางมาไว้ในที่เดียวกัน ทำให้สามารถวิเคราะห์ข้อมูล Customer Insight ได้ดียิ่งขึ้น จึงทำให้สามารถสร้างกลยุทธ์การตลาดที่หลากหลาย รวมทั้งยังสามารถทำการตลาดแบบ Personalized Marketing เพื่อตอบโจทย์ความต้องการของลูกค้าได้อย่างแม่นยำมากขึ้น ดังนั้น ในการ Design CDP นั้น สิ่งที่ต้องพิจารณา คือ เราจะเก็บข้อมูลอะไรบ้าง ข้อมูลอะไรบ้างที่จะจำเป็นต่อการนำไปวิเคราะห์ในอนาคต
 ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/ad8c48ec-7507-4c3a-affa-1470bf1516de)
 _ภาพจาก: insidebigdata.com_
 
 
-## CDP เก็บข้อมูลอะไรบ้าง?
+## :point_right: CDP เก็บข้อมูลอะไรบ้าง?
 **1. ข้อมูลประจำตัวลูกค้า (Identity Data)**
    * ชื่อ-นามสกุล
    * อายุ เพศ
@@ -37,7 +37,7 @@ _ภาพจาก: insidebigdata.com_
 ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/1257e625-d317-49d0-b70f-cd1aa0f0e2e8)
 _ภาพจาก: Customer Data Platform: The Basics and the Benefits | APSIS | International_
 
-## ประโยชน์ของการทำ CDP
+## :point_right: ประโยชน์ของการทำ CDP
    * **เพิ่มความพึงพอใจให้แก่ลูกค้า**
      จากการรวบรวมข้อมูลลูกค้าในทุก ๆ ช่องทางรวมถึงข้อมูลจาก Thrid party ให้มารวมศูนย์อยู่ที่เดียว จึงสามารถวิเคราะห์ Customer Insight ได้ดีขึ้น ตอบสนองความต้องการของลูกค้าได้อย่างเหมาะสม และรวดเร็วมากยิ่งขึ้น ทำให้ลูกค้ามั่นใจในตัวธุรกิจ และอาจกลายเป็นลูกค้าประจำ
    * **เพิ่มประสิทธิภาพของกลยุทธ์ทางการตลาด**
@@ -45,11 +45,11 @@ _ภาพจาก: Customer Data Platform: The Basics and the Benefits | APSIS
    * **การจัดการกับข้อมูลของลูกค้า(Customer Data) เกิดความเป็นระเบียบ**
      ทำให้การจัดการข้อมูลลูกค้าเกิดความเป็นระเบียบ และทำให้กระบวนการต่าง ๆ ง่ายขึ้นอย่างมาก เพราะข้อมูลที่ได้มานั้นเป็นข้อมูลจำนวนมาก และทุกข้อมูลล้วนมีความสำคัญต่อการตลาด ในการนำมาวิเคราะห์ข้อมูล เพื่อทำการตลาดต่อไป CDP จึงเข้ามาช่วยเหลือเรื่องการจัดการกับข้อมูลให้ง่ายมากยิ่งขึ้น
      
-## Designed Customer Data Platform
+## :point_right: Designed Customer Data Platform
 ตัวอย่างการออกแบบ CDP เบื้องต้นสำหรับธนาคาร เพื่อระบุข้อมูลที่เกี่ยวข้องกับ Customer ในแต่ละช่องทาง รวมถึงตัวอย่าง Analysis และ Actions จากข้อมูลที่รวบรวมไว้ใน CDP
-### Datasource		
+### :white_check_mark: Datasource		
 ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/652d17f6-53c5-4979-989a-e3c7e1af2e9c)
 ทั้งนี้ ต้องระวังในการวิเคราะห์เพื่อส่งออกแคมเปญในแต่ละ Product เนื่องจาก แต่ละ Product อาจมีข้อมูล Master ของลูกค้าที่แตกต่างกัน ตามวัตถุประสงค์ของลูกค้า เช่น ข้อมูลที่อยู่ที่สามารถติดต่อได้ / เบอร์โทร เนื่องจากลูกค้าเจตนาที่จะแยกรายละเอียดการจัดส่งข้อมูล ซึ่งหากมีการจัดส่งผิดช่องทาง ก็อาจจะก่อให้เกิดผลทางลบ เช่น เรื่องร้องเรียน เป็นต้น
-### Analysis and Actions
+### :white_check_mark: Analysis and Actions
 ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/68da6551-7b81-4c8c-8e1b-48bbef6ea028)
 
