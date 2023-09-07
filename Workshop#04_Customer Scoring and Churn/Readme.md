@@ -23,3 +23,39 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 * K-Nearest Neighbors Classifier
 * SMOTE
 * XGBoost Classifier
+
+ซึ่งในวันนี้เราจะมาลองทำ Churn Prediction โดยใช้ Python ตามรายละเอียดด้านล่าง
+
+### :white_check_mark: Import Libraries and Data
+```
+## Import Libraries
+import numpy as np
+import pandas as pd
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set()
+```
+
+```
+## Import Data
+df = pd.read_csv("ecommerce_Dataset.csv")
+```
+
+### :white_check_mark: Exploratory Data Analysis (EDA)
+```
+## Explore Data
+df.head()
+```
+
+```
+df.info()
+```
+
+```
+df.isna().sum()
+```
+
+```
+df.describe()
+```
