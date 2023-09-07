@@ -27,7 +27,7 @@ _ภาพจาก: https://delighted.com/blog/customer-lifetime-value-formula_
 ![image](https://github.com/Learntogether/Workshop03_Customer-Lifetime-Value/assets/136689632/1240e8cc-4633-4b2a-aaef-7c84552ab1e5)
 ![image](https://github.com/Learntogether/Workshop03_Customer-Lifetime-Value/assets/136689632/d5b41d0d-8071-4f34-9b72-0df290e0fe0c)
 
-## Key Benefits from CLV
+## 	:triangular_flag_on_post: Key Benefits from CLV
 * ทำให้ธุรกิจสามารถ scoring ลูกค้าแต่ละคน เพื่อทำ Customer segmentation แบ่งกลุ่ม และนำเสนอแคมเปญหรือโปรโมชั่นให้ตรงตามความต้องการของลูกค้าแต่ละกลุ่ม
 * เพิ่มโอกาสในการทำ Cross-selling และ Upselling เนื่องจากต้องเพิ่ม Customer's spending จึงต้องมีการวิเคราะห์ลูกค้า หรือหาผลิตภัณฑ์/บริการเพื่อแนะนำให้แก่ลูกค้า
 * ทำให้ธุรกิจรู้จุดคุ้มทุน เนื่องจากมีการคำนวณมูลค่าที่จะได้รับจากลูกค้าแต่ละราย (Benefit - Cost)
