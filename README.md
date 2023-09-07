@@ -1,1 +1,1 @@
-# MADT8101_Seminar-in-Advanced-Analytics
+# MADT8101_Seminar in Advanced Analytics
