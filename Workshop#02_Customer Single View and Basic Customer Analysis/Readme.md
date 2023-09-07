@@ -1,6 +1,6 @@
 # Workshop#02_Customer Single View and Basic Customer Analysis
 
-## Customer Single View คืออะไร และสำคัญอย่างไร?
+## 	:point_right: Customer Single View คืออะไร และสำคัญอย่างไร?
 **Customer Single View** คือ การสรุปข้อมูลทุกอย่างเกี่ยวกับลูกค้า ซึ่งจำเป็นแก่การนำไปใช้งานหรือวิเคราะห์ข้อมูล โดยเป็นการจัด Format ข้อมูลของลูกค้า 1 ราย ให้อยู่ภายใน 1 record
 
 **_แล้วทำไมถึงต้องสรุปข้อมูลให้อยู่ภายใน 1 record...?_**
@@ -28,15 +28,15 @@
 
 
 
-## Basic Customer Analysis
+## 	:point_right: Basic Customer Analysis
 จาก Customer Single View จะสามารถเอาข้อมูลข้างต้นมาวิเคราะห์ Customer insight เพื่อทำ Customer segmentation และกำหนดกลยุทธ์ทางการตลาดกับลูกค้าได้เบื้องต้น ตามตัวอย่างดังนี้
 
-### Analysis Objective
+### :white_check_mark: Analysis Objective
 วิเคราะห์ Customer insight เพื่อทำ Customer segmentation เพื่อให้สามารถกำหนดกลยุทธ์ทางการตลาดที่เหมาะสมกับลูกค้าแต่ละกลุ่ม
   * ทำ Visualized เพื่อวิเคราะห์ข้อมูล Dataset เบื้องต้น 
 ![image](https://github.com/Learntogether/Workshop02_Customer-Single-View/assets/136689632/2ec08338-2885-4f9e-a6ce-e98f0ca84e5e)
 
-### Customer Segmentation
+### :white_check_mark: Customer Segmentation
   * นำข้อมูลเข้า Dataiku และใช้ Auto ML - Clustering และ K-Mean algorithm เพื่อทำ Customer Segmentation
       *  ค่า Silhouette สูงสุดจะอยู่ที่ K = 5
 ![image](https://github.com/Learntogether/Workshop02_Customer-Single-View/assets/136689632/f9f66790-d012-416b-bd07-a1529dbf93fa)
@@ -45,12 +45,12 @@
       *  Scatter plot - Customer Lifetime Value vs. Mean time between purchase
 ![image](https://github.com/Learntogether/Workshop02_Customer-Single-View/assets/136689632/7f34b523-451c-4b29-9621-2a21a5a72862)
 
-### Result and Actions
+### :white_check_mark: Result and Actions
 จากผลการทำ Clustering โดยใช้ K-Mean จะแบ่งลูกค้าออกเป็น 5 กลุ่ม ซึ่งแต่ละกลุ่มจะมี Character และ Key actions ที่แตกต่างกัน ตามรายละเอียดด้านล่าง
 ![image](https://github.com/Learntogether/Workshop02_Customer-Single-View/assets/136689632/f7a11d51-f3fe-4711-813c-bbd4feee5578)
 
 
-### Further Analysis and Next best actions
+### :triangular_flag_on_post: Further Analysis and Next best actions
   * Customer Behavior and Insight Analysis - วิเคราะห์ปัจจัยที่ส่งผลกระทบต่อการตัดสินใจซื้อของลูกค้าแต่ละกลุ่ม เช่น ลูกค้าบางกลุ่มจะ sensitive กับส่วนลด โปรแกรมสะสมแต้มเป็น
   * Sentiment Analysis - วิเคราะห์ความต้องการของลูกค้า และความรู้สึกของลูกค้าที่มีต่อธุรกิจ เพื่อนำมาพัฒนา และปรับปรุงให้ดีขึ้น และรักษาฐานลูกค้าให้อยู่กับธุรกิจ
   * Social/Trend Analysis - วิเคราะห์ความต้องการ สถานการณ์ ณ ปัจจุบัน สินค้าที่กำลังเป็นกระแส เพื่อให้มีสินค้าพร้อมขาย และสต๊อคสินค้าอย่างมีประสิทธิภาพ เพียงพอต่อความต้องการของลูกค้า
