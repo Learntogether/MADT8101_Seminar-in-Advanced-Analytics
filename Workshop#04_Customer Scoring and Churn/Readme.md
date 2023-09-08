@@ -16,7 +16,9 @@
 
 _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer-churn-plytrix-analytics/_
 
-## 	:point_right: Machine Learning for Churn Prediction
+## 	:point_right: Workshop - Churn Prediction
+
+### :white_check_mark: Algorithm
 ตัวอย่างการใช้งาน Machine Learning เพื่อใช้ Churn prediction สามารถใช้ได้หลาย Algorithm ขึ้นอยู่กับปัจจัย หรือตัวแปรที่เราต้องการนำมาวิเคราะห์ เช่น
 * Logistic Regression
 * Random Forest Classifier
@@ -24,48 +26,14 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 * SMOTE
 * XGBoost Classifier
 
-ซึ่งในวันนี้เราจะมาลองทำ Churn Prediction โดยใช้ Python ตามรายละเอียดด้านล่าง
+### :white_check_mark: Dataset :arrow_forward: [ecommerce_Dataset.csv](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/ecommerce_Dataset.csv) :arrow_backward:
 
-### :white_check_mark: Dataset
-[ecommerce_Dataset.csv](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/ecommerce_Dataset.csv)
-
-### :white_check_mark: Import Libraries and Data
-```
-## Import Libraries
-import numpy as np
-import pandas as pd
-
-import matplotlib.pyplot as plt
-import seaborn as sns
-sns.set()
-```
-
-```
-## Import Data
-df = pd.read_csv("ecommerce_Dataset.csv")
-```
-
-### :white_check_mark: Exploratory Data Analysis (EDA)
-```
-## Explore Data
-df.head()
-```
-
-```
-df.info()
-```
-
-```
-df.isna().sum()
-```
-
-```
-df.describe()
-```
+วันนี้เราจะมาลองทำ Churn Prediction สำหรับธุรกิจ E-commerce โดย Variable ของชุดข้อมูลจะประกอบด้วย
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/39e32b2a-1bd5-41aa-a74e-e866d17f9478)
 
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/4d399cc1-1a8a-47e3-896c-48273f9312de)
+### :white_check_mark: Import Data and Libralies
 
+### :white_check_mark: Exploratory Data Analysis (EDA)
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b5c9e23-7721-4b32-9d68-fae2c115d155)
 
 
