@@ -28,7 +28,7 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 
 ### :white_check_mark: Dataset
 [ecommerce_Dataset.csv](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/ecommerce_Dataset.csv)
-> 
+
 ### :white_check_mark: Import Libraries and Data
 ```
 ## Import Libraries
@@ -62,3 +62,11 @@ df.isna().sum()
 ```
 df.describe()
 ```
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/39e32b2a-1bd5-41aa-a74e-e866d17f9478)
+
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/4d399cc1-1a8a-47e3-896c-48273f9312de)
+
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b5c9e23-7721-4b32-9d68-fae2c115d155)
+
+
+
