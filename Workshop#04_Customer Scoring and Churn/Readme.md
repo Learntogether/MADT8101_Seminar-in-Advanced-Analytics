@@ -33,17 +33,38 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 วันนี้เราจะมาลองทำ Churn Prediction สำหรับธุรกิจ E-commerce โดย Variable ของชุดข้อมูลจะประกอบด้วย
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/39e32b2a-1bd5-41aa-a74e-e866d17f9478)
 
-### :white_check_mark: Import Data and Libralies
+### :white_check_mark: Import Libraries
 > Libraries: NumPy, pandas, sklearn, Matplotlib, and seaborn
 
 ### :white_check_mark: Exploratory Data Analysis (EDA) and Preparation
+>
+> :green_circle: **Check the Data (Mean, Min, Max, SD and Count)**
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b5c9e23-7721-4b32-9d68-fae2c115d155)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/fa4ac80d-9083-48ee-8840-5e1f0a446171)
+>
+> :green_circle: **Remove the columns that irrelevant to our needs and plot boxplot for variables that predict the customer churn**
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/fa4ac80d-9083-48ee-8840-5e1f0a446171)
+>
+> :green_circle: **Handling Data - Missing value, Define Cat/Num variables**
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/b1617cb5-8b6b-4a78-8069-2cd00c6cd466)
+>
+> :green_circle: **Visualise each variable and distribution**
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcc83a4c-4daa-4d78-bd7e-29558713db91)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcab3134-5437-4316-9edb-b1ee3272e295)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/f7d943b1-6f4f-4058-aefa-d59f62a6ba79)
+> 
+> :green_circle: **Visualise churn with each variable and correlation coefficient**
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7e80d833-efa6-45f7-9da0-0ca59c9bfdbf)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/76709dc7-4ff9-47a7-b9f9-0f370f048609)
+>
+> :green_circle: **Visualise churn with each variable and correlation coefficient**
+
+
+
 
 
 
 ### :white_check_mark: Model Evaluation
-
 |                      Model                       |   Sampling Method    | Precision (0) | Recall (0) | F1-Score (0) | Support (0) | Precision (1) | Recall (1) | F1-Score (1) | Support (1) | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Macro Avg Support | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |--------------------------------------------------|----------------------|---------------|------------|--------------|-------------|---------------|------------|--------------|-------------|----------|---------------------|------------------|--------------------|-------------------|------------------------|---------------------|-----------------------|
 |               Logistic Regression                |     No Sampling      |     0.90      |    0.96    |     0.93     |   1171.00   |     0.69      |    0.45    |     0.54     |   237.00    |   0.87   |        0.79         |       0.70       |        0.74        |      1408.00      |          0.86          |        0.87         |         0.86          |
