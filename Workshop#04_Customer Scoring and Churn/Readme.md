@@ -19,7 +19,7 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 ## 	:point_right: Workshop - Churn Prediction
 
 ### :white_check_mark: Algorithm
-ตัวอย่างการใช้งาน Machine Learning เพื่อใช้ Churn prediction สามารถใช้ได้หลาย Algorithm ขึ้นอยู่กับปัจจัย หรือตัวแปรที่เราต้องการนำมาวิเคราะห์ เช่น
+Example of algorithm for Churn prediction which might be different due to objective and variables:
 * Logistic Regression
 * Random Forest Classifier
 * K-Nearest Neighbors Classifier
@@ -30,7 +30,7 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 * [Ecommerce_Dataset](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/ecommerce_Dataset.csv)
 * [Python Code](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/Churn_E_Commerce.ipynb)
 
-วันนี้เราจะมาลองทำ Churn Prediction สำหรับธุรกิจ E-commerce โดย Variable ของชุดข้อมูลจะประกอบด้วย
+Variables on the dataset are consist of Customer ID, Customer Demographics, Customer Account Information and Customer Feedback or purchasing behavior as follows:
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/39e32b2a-1bd5-41aa-a74e-e866d17f9478)
 
 ### :white_check_mark: Import Libraries
@@ -57,14 +57,27 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7e80d833-efa6-45f7-9da0-0ca59c9bfdbf)
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/76709dc7-4ff9-47a7-b9f9-0f370f048609)
 >
-> :green_circle: **Visualise churn with each variable and correlation coefficient**
-
+> :green_circle: **Splitting the data into train and test sets**
+>```
+> X_train, X_test,y_train, y_test = train_test_split(df.drop('Churn', axis=1), df.Churn)
+> ```
+>
+> :green_circle: **Train the Model and Prediction**
+>
+> _Example results:_
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/f6cb98ad-41e3-4764-a718-173b6faac67e)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0cae78ff-b234-4c49-a307-601a73b71647)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/e41840a1-721c-40b6-adf5-bb97aed2b73c)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/610b3617-622e-4128-8d38-f3724525c221)
 
 
 
 
 
 ### :white_check_mark: Model Evaluation
+```
+|--------------------------------------------------|----------------------|---------------|------------|--------------|-------------|---------------|------------|--------------|-------------|----------|---------------------|------------------|--------------------|-------------------|------------------------|---------------------|-----------------------|
 |                      Model                       |   Sampling Method    | Precision (0) | Recall (0) | F1-Score (0) | Support (0) | Precision (1) | Recall (1) | F1-Score (1) | Support (1) | Accuracy | Macro Avg Precision | Macro Avg Recall | Macro Avg F1-Score | Macro Avg Support | Weighted Avg Precision | Weighted Avg Recall | Weighted Avg F1-Score |
 |--------------------------------------------------|----------------------|---------------|------------|--------------|-------------|---------------|------------|--------------|-------------|----------|---------------------|------------------|--------------------|-------------------|------------------------|---------------------|-----------------------|
 |               Logistic Regression                |     No Sampling      |     0.90      |    0.96    |     0.93     |   1171.00   |     0.69      |    0.45    |     0.54     |   237.00    |   0.87   |        0.79         |       0.70       |        0.74        |      1408.00      |          0.86          |        0.87         |         0.86          |
@@ -127,3 +140,5 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 |         Undersampled XGBoost Classifier          |        SMOTE         |     0.97      |    0.98    |     0.97     |   1171.00   |     0.89      |    0.86    |     0.87     |   237.00    |   0.96   |        0.93         |       0.92       |        0.92        |      1408.00      |          0.96          |        0.96         |         0.96          |
 |         Undersampled XGBoost Classifier          | Random Oversampling  |     0.98      |    0.98    |     0.98     |   1171.00   |     0.92      |    0.91    |     0.92     |   237.00    |   0.97   |        0.95         |       0.95       |        0.95        |      1408.00      |          0.97          |        0.97         |         0.97          |
 |         Undersampled XGBoost Classifier          | Random Undersampling |     0.99      |    0.90    |     0.94     |   1171.00   |     0.66      |    0.94    |     0.77     |   237.00    |   0.91   |        0.82         |       0.92       |        0.86        |      1408.00      |          0.93          |        0.91         |         0.91          |
+|--------------------------------------------------|----------------------|---------------|------------|--------------|-------------|---------------|------------|--------------|-------------|----------|---------------------|------------------|--------------------|-------------------|------------------------|---------------------|-----------------------|
+```
