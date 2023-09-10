@@ -32,7 +32,7 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 ## 	:point_right: Workshop - Topic Modeling with LDA
 ### :white_check_mark: Dataset
 * [Dataset](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2306_Voice%20of%20Customer/Customer%20Review.csv)
-* Python code
+* [Python code](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2306_Voice%20of%20Customer/MADT8101_Voice_of_Customer.ipynb)
 ### :white_check_mark: Import Libraries
 > pandas, pythainlp, gensim, pendas.gensim, pyLDAvis, corpora and models
 
@@ -40,7 +40,7 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/362d1dd1-76e4-4d01-abb3-675177bd42a9)
 
 ### :white_check_mark: Tokenize Words and Create Dictionary
-> Remove repeated with no meaning word, then split word by comma (,) before put in dictionary (word bucket)
+> Remove repeated with no meaning word, then split word by comma (,) before put in dictionary (word bucket).
 > ```
 > removed_words = [' ', ',', ' ,', '\n', 'ร้าน', '(', ')', 'เกาหลี','โค','เรียน','ทาวน์', 'Restaurant', 'Korean','korean','town','Doorae','doorae','DooRae', 'อาหาร','กิน','ทาน']
 > ```
@@ -56,6 +56,12 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/874f387a-445c-4a2d-8fe6-f7fa8cd34b97)
 
 ### :white_check_mark: Word Cloud
+> Run word cloud with thai font
+> ```
+>
+> ```
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/01cc4790-133d-46db-b830-892c1a51ad1d)
+
 
 
 ## 	:triangular_flag_on_post:  Key Benefits and Further Analysis
