@@ -31,8 +31,11 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 
 ## 	:point_right: Workshop - Topic Modeling with LDA
 ### :white_check_mark: Dataset
-* [Dataset](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2306_Voice%20of%20Customer/Customer%20Review.csv)
-* [Python code](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2306_Voice%20of%20Customer/MADT8101_Voice_of_Customer.ipynb)
+> * [Dataset](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2306_Voice%20of%20Customer/Customer%20Review.csv)
+> * [Python code](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2306_Voice%20of%20Customer/MADT8101_Voice_of_Customer.ipynb)
+> 
+> The data set contains information about 30 reviews and ratings by customers for korean restaurant.
+
 ### :white_check_mark: Import Libraries
 > pandas, pythainlp, gensim, pendas.gensim, pyLDAvis, corpora and models
 
@@ -56,11 +59,29 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/874f387a-445c-4a2d-8fe6-f7fa8cd34b97)
 
 ### :white_check_mark: Word Cloud
-> Run word cloud with thai font
+> Run word cloud and plot graph with thai font, so we have to import libralies (maplotlib.pyplot, numpy) and define paht for thai font as follows:
 > ```
+> import matplotlib.pyplot as plt
+> import numpy as np
+> from PIL import Image
+> from wordcloud import WordCloud
+> ```
+> ```
+> path = '/content/THSarabunNew.ttf'
+> ```
+> ```
+> wordcloud = WordCloud(font_path='THSarabunNew.ttf',background_color="white", max_words=5000, contour_width=3, contour_color='steelblue', width=2400, height=1000)
+> wordcloud.generate(long_string)
 >
+> #Display the word cloud using Matplotlib
+> plt.figure(figsize=(20, 15))
+> plt.imshow(wordcloud, interpolation='bilinear')
+> plt.axis('off')  # Hide axis
+> plt.show()
 > ```
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/01cc4790-133d-46db-b830-892c1a51ad1d)
+> 
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcd978be-eec9-4b02-a155-0e483323b5b7)
+> 
 
 
 
