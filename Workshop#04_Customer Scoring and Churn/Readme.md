@@ -19,18 +19,19 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 ## 	:point_right: Workshop - Churn Prediction
 
 ### :white_check_mark: Algorithm
-Example of algorithm for Churn prediction which might be different due to objective and variables:
-* Logistic Regression
-* Random Forest Classifier
-* K-Nearest Neighbors Classifier
-* SMOTE
-* XGBoost Classifier
+> Example of algorithm for Churn prediction which might be different due to objective and variables:
+> * Logistic Regression
+> * Random Forest Classifier
+> * K-Nearest Neighbors Classifier
+> * SMOTE
+> * XGBoost Classifier
 
 ### :white_check_mark: Dataset and Python code
-* [Ecommerce_Dataset](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/ecommerce_Dataset.csv)
-* [Python Code](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/Churn_E_Commerce.ipynb)
-
-Variables on the dataset are consist of Customer ID, Customer Demographics, Customer Account Information and Customer Feedback or purchasing behavior as follows:
+> * [Ecommerce_Dataset](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/ecommerce_Dataset.csv)
+> * [Python Code](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2304_Customer%20Scoring%20and%20Churn/Churn_E_Commerce.ipynb)
+>
+> Variables on the dataset are consist of Customer ID, Customer Demographics, Customer Account Information and Customer Feedback or purchasing behavior as follows:
+> 
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/39e32b2a-1bd5-41aa-a74e-e866d17f9478)
 
 ### :white_check_mark: Import Libraries
