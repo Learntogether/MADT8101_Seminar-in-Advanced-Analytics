@@ -1,7 +1,11 @@
 # MADT8101_Seminar in Advanced Analytics
 
 ## :point_right: Introduction
+สำหรับ Advance Analytics ใน Class นี้ เราจะเน้นไปที่ Customer Analytics เนื่องจากรายได้ของธุรกิจล้วนมาจากลูกค้า ดังนั้น การคิดกลยุทธ์ หรือปัจจัยต่าง ๆ เพื่อดึงดูดลูกค้า รวมถึงการวิเคราะห์ปัจจัยที่ทำให้ลูกค้าเลิกใช้ผลิตภัณฑ์/บริการของธุรกิจนั้นเป็นสิ่งสำคัญ เพื่อธุรกิจจะได้สามารถปรับตัว และหาตัวแปรต่าง ๆ ที่เป็นปัจจัยในการตัดสินใจของลูกค้าเพื่อที่ธุรกิจจะสามารถรักษาฐานลูกค้าเดิม และหาฐานลูกค้าใหม่ได้ ดังนั้น จึงต้องมีการทำ Customer Analytics เพื่อวิเคราะห์ Customer insigt และหาแนวทางจัดการเพื่อตอบสนองความต้องการของลูกค้า ซึ่งจะช่วยสร้างผลประโยชน์อย่างยั่งยืนให้แก่ธุรกิจ
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/d811e1fa-38c6-40cc-a1ae-f18a37e3416d)
 
+
+## :point_right: Topic
 :green_circle:**[Workshop#01_Customer Data Platform (CDP)](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2301_Customer%20Data%20Platform%20(CDP))**
   > การวิเคราะห์....
 
@@ -20,6 +24,3 @@
 :green_circle:**[Workshop#06_Voice of Customer](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2306_Voice%20of%20Customer)**
   > การวิเคราะห์....
 
-
-
-## :point_right: Summary
