@@ -74,8 +74,9 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 > :green_circle: The features that I selected to train the model, the right-side graph shows the percentage important of each variable that effect to the model.
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/c572f6c4-bff7-4ad6-b1ff-0381dbabd37e)
 >
-> :green_circle: **Intepret results and Actions**
-> 
+> :green_circle: **Interpreting results and Actions**
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/055e8523-1f3c-4901-ae98-d133bba3fb80)
+
 > 
 
 ### :white_check_mark: Recommendation
