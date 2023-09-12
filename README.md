@@ -7,7 +7,8 @@
 
 
 ## :point_right: Topic
-Summary details of each topic
+_Summary details of each topic_
+
 :green_circle:**[Workshop#01_Customer Data Platform (CDP)](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2301_Customer%20Data%20Platform%20(CDP))**
   > Workshop แรกเรามาเริ่มต้นกันด้วยการทำความเข้าใจ CDP ว่าคืออะไร มีความสำคัญอย่างไร ข้อมูลที่เกี่ยวกับลูกค้ามีอะไรบ้าง เข้ามาจากช่องทางใด และมีข้อมูลใดที่สำคัญสำหรับการนำไปวิเคราะห์บ้าง รวมถึงลอง Designed CDP, Analysis method and actions เบื้องต้น
 
