@@ -48,8 +48,8 @@ _ภาพจาก: Customer Data Platform: The Basics and the Benefits | APSIS
 ## :point_right: Workshop - Designed Customer Data Platform
 ตัวอย่างการออกแบบ CDP เบื้องต้นสำหรับธนาคาร เพื่อระบุข้อมูลที่เกี่ยวข้องกับ Customer ในแต่ละช่องทาง รวมถึงตัวอย่าง Analysis และ Actions จากข้อมูลที่รวบรวมไว้ใน CDP
 ### :white_check_mark: Datasource		
-![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/652d17f6-53c5-4979-989a-e3c7e1af2e9c)
+> ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/652d17f6-53c5-4979-989a-e3c7e1af2e9c)
 ทั้งนี้ ต้องระวังในการวิเคราะห์เพื่อส่งออกแคมเปญในแต่ละ Product เนื่องจาก แต่ละ Product อาจมีข้อมูล Master ของลูกค้าที่แตกต่างกัน ตามวัตถุประสงค์ของลูกค้า เช่น ข้อมูลที่อยู่ที่สามารถติดต่อได้ / เบอร์โทร เนื่องจากลูกค้าเจตนาที่จะแยกรายละเอียดการจัดส่งข้อมูล ซึ่งหากมีการจัดส่งผิดช่องทาง ก็อาจจะก่อให้เกิดผลทางลบ เช่น เรื่องร้องเรียน เป็นต้น
 ### :white_check_mark: Analysis and Actions
-![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/68da6551-7b81-4c8c-8e1b-48bbef6ea028)
+> ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/68da6551-7b81-4c8c-8e1b-48bbef6ea028)
 
