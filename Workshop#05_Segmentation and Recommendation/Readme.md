@@ -46,32 +46,33 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 
 ### :white_check_mark: Understand business
 > **Business:** A a Social Network Marketing organisation
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b87c2ad-8173-438f-81ea-8af5e126fb88)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/fc3559c3-32de-41d2-8620-8ce4f5fc740b)
 
 ### :white_check_mark: Define Analysis Objective
 > **Analysis Objective:** Create a personalized marketing through customer segmentation and product recommendation system.
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/68bf89a5-ff2f-481b-a2a1-d28a2bf48750)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/537876ba-f18b-4912-ab50-6551650b0a1b)
 
 ### :white_check_mark: Data Pre-Processing
-> Determined to drop some users who have no transaction, also users who joined before the Company founded.
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/2421645f-2b51-48a4-94c9-32398da047fc)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1b043da8-e841-4038-9d79-0197ccb6f108)
+> Determined to drop some users who have no transaction, also dropped users who joined before the Company founded.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/653d5062-a38f-4048-9588-ef95677a4d28)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/add45cad-f747-4250-90b8-d8897ee9874d)
+
 
 ### :white_check_mark: Exploratory Data Analysis (EDA) and Preparation by DATAIKU
 > :green_circle: **Sanity check:** Understand the structure of dataset, then check outlier and missing value.
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7e7deddb-adfd-4552-aeaa-386cb5c10fde)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/5da95327-3506-42e2-af8d-c9ba03754495)
 >
 > :green_circle: **Features Preparation:** Preparing the features for train the model, then generate customer single view and EDA the correlation and PCA of variables.
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1dec1e5c-e678-48c8-861a-8916b255e971)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/96d4960a-dbf6-4970-b993-b9811273812d)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1bcb7f94-2949-4f94-8ab9-75e52a86579c)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/a456310c-3a12-415f-b402-64088c1a351a)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/a5ec138e-4919-45e5-88fd-01cff9c7fcbc)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/52fdb8fa-b349-4775-a2e1-643f35cd262f)
 
 
 ### :white_check_mark: Segmentation and Actions
 > :green_circle: **Segmentation:** Segmentation by Auto-ML Clustering module of DATAIKU with the K-Mean algorithm. I decided to split customers into 4 segments based on silhouette score, Elbow method and the Customer's character of each segments.
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0ecbc949-3420-4c40-bbc3-5e7c4c76feb5)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/46d1bbb4-0c7a-4309-9d49-ff06d950c66e)
 > :green_circle: The features that I selected to train the model, the right-side graph shows the percentage important of each variable that effect to the model.
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/358c4e2d-7919-4d5f-b465-4ec90c57adc6)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/c572f6c4-bff7-4ad6-b1ff-0381dbabd37e)
 >
 > :green_circle: **Intepret results and Actions**
 > 
