@@ -7,6 +7,8 @@
 
 
 ## :point_right: Topic
+Workshop หลักของ class นี้ จะมีทั้งหมด 6 topics ดังนี้
+
 :green_circle:**[Workshop#01_Customer Data Platform (CDP)](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2301_Customer%20Data%20Platform%20(CDP))**
   > การวิเคราะห์....
 
