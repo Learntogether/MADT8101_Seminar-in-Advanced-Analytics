@@ -3,7 +3,9 @@
 ## :point_right: Introduction
 สำหรับ Advance Analytics ใน Class นี้ เราจะเน้นไปที่ Customer Analytics เนื่องจากรายได้หลักของธุรกิจล้วนมาจากลูกค้า จึงเป็นสิ่งที่ทุกธุรกิจควรทำเพื่อวิเคราะห์ Customer insigt และหาแนวทางจัดการเพื่อตอบสนองความต้องการของลูกค้า ซึ่งจะช่วยสร้างผลประโยชน์อย่างยั่งยืนให้แก่ธุรกิจ ดังนั้น การทำ Customer Analytics จึงเป็นสิ่งที่สำคัญสำหรับธุรกิจ เพื่อให้ธุรกิจสามารถตอบสนองความต้องการของลูกค้าได้ตรงจุด แม่นยำมากขึ้น รวมถึงกลยุทธ์ ผลิตภัณฑ์/บริการ แคมเปญหรือโปรโมชั่นต่าง ๆ ที่ออกแบบไปนั้นสามารถดึงดูดกลุ่มลูกค้าใหม่ และรักษาฐานลูกค้าเดิมได้
 
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/d811e1fa-38c6-40cc-a1ae-f18a37e3416d)
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/82b870a5-f6ff-4430-a495-b535b746e331)
+
+
 
 
 ## :point_right: Topic
