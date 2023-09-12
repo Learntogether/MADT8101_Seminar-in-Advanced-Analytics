@@ -12,7 +12,8 @@
 * ทำให้บริษัทสามารถวิเคราะห์ได้ว่าลูกค้า Churn เพราะปัจจัยใด และหากลยุทธ์/แนวทางเพื่อลดโอกาสในการ Chrun ของลูกค้า
 * สามารถวิเคราะห์ได้ว่าช่วงเวลาใดที่ลูกค้ามีโอกาส Churn สูง และรีบเข้าถึงลูกค้า (เช่น ยิง Ads โฆษณา, ปล่อย promotion) ก่อนที่จะถึงระยะเวลานั้น
 
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7ae3e643-e12f-401c-a8a4-8e6bbb14f7d8)
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9c166677-43df-4a00-ac83-70cd493d2be2)
+
 
 _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer-churn-plytrix-analytics/_
 
@@ -32,7 +33,7 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 >
 > Variables on the dataset are consist of Customer ID, Customer Demographics, Customer Account Information and Customer Feedback or purchasing behavior as follows:
 > 
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/39e32b2a-1bd5-41aa-a74e-e866d17f9478)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/72c3dd6f-eb2a-425c-aa5f-3a55fba17467)
 
 ### :white_check_mark: Import Libraries
 > Libraries: NumPy, pandas, sklearn, Matplotlib, and seaborn
@@ -40,23 +41,23 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 ### :white_check_mark: Exploratory Data Analysis (EDA) and Preparation
 >
 > :green_circle: **Check the Data (Mean, Min, Max, SD and Count)**
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b5c9e23-7721-4b32-9d68-fae2c115d155)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/58c4ee65-863d-4f04-b6b6-d857052fb3f3)
 >
 > :green_circle: **Remove the columns that irrelevant to our needs and plot boxplot for variables that predict the customer churn**
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/fa4ac80d-9083-48ee-8840-5e1f0a446171)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/72be1a68-649c-47c7-98f0-7de64a4178f7)
 >
 > :green_circle: **Handling Data - Missing value, Define Cat/Num variables**
 >
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/b1617cb5-8b6b-4a78-8069-2cd00c6cd466)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/4b1c2e0c-1514-4c7f-95ce-208815f6ec54)
 >
 > :green_circle: **Visualise each variable and distribution**
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcc83a4c-4daa-4d78-bd7e-29558713db91)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcab3134-5437-4316-9edb-b1ee3272e295)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/f7d943b1-6f4f-4058-aefa-d59f62a6ba79)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/677f4e76-a4f3-4253-8e2e-472864b86839)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/ee278e3d-517a-415c-851c-4bc8b1fe7483)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0b82c707-1a9d-42ae-be7e-bcb9c76021ab)
 > 
 > :green_circle: **Visualise churn with each variable and correlation coefficient**
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7e80d833-efa6-45f7-9da0-0ca59c9bfdbf)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/76709dc7-4ff9-47a7-b9f9-0f370f048609)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/6d637fce-e05b-4642-9b7e-2a94bdb1a6bf)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7770ca63-4945-4536-a074-e217e46333ea)
 >
 > :green_circle: **Splitting the data into train and test sets**
 >```
@@ -67,10 +68,10 @@ _ภาพจาก: https://www.linkedin.com/pulse/3-ways-predict-your-customer
 >
 > _Example results:_
 >
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/f6cb98ad-41e3-4764-a718-173b6faac67e)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0cae78ff-b234-4c49-a307-601a73b71647)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/e41840a1-721c-40b6-adf5-bb97aed2b73c)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/610b3617-622e-4128-8d38-f3724525c221)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/157e56ca-4dbe-406c-90ba-0418a08e3fb1)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/a16fa1f0-322b-4998-8f3d-ac0ccbb6a8b3)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0c73baa1-123a-4f3f-a305-d7b8640cd90a)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/125ec8da-f033-4c7a-85b1-155578e90979)
 
 
 
