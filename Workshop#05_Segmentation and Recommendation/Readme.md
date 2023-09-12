@@ -3,7 +3,9 @@
 ## 	:point_right: Customer Segmentation คืออะไร?
 **_Customer Segmentation_** คือ การวิเคราะห์แบ่งกลุ่มลูกค้าออกเป็นกลุ่มย่อย ๆ โดยอ้างอิงข้อมูลของลูกค้าที่มีลักษณะคล้าย ๆ ตั้งแต่ข้อมูลลักษณะทางคุณภาพ และเชิงปริมาณต่าง ๆ พวก Demographic ตลอดจนถึงพฤติกรรมการบริโภคสินค้า/บริการ
 ดังนั้น Customer Segmentation จึงเป็นเครื่องมือสำคัญที่นักการตลาดใช้ในการระบุความต้องการของกลุ่มลูกค้า เพื่อที่ธุรกิจจะสามารถชนะใจลูกค้า ชนะคู่แข่ง ด้วยการพัฒนาผลิตภัณฑ์/บริการ และออกแคมเปญ หรือโปรโมชั่นต่าง ๆ ที่ตอบสนองลูกค้าในแต่ละกลุ่ม
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/b171b7dc-2145-409e-8476-e40a0164360f)
+
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/db799395-4a92-4341-baed-4863b0fdeb09)
+
 _ภาพจาก: https://commons.wikimedia.org/wiki/File:Customer_Segmentation.png_
 
 
@@ -33,7 +35,7 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 > 
 > _ตัวอย่างการใช้งาน_: การแบ่งกลุ่มพืช หรือสิ่งมีชีวิต, การแบ่งกลุ่มสินค้า 
 > 
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/edad11f0-fbdb-4215-85c3-0f0a937fcd0e)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/f8dff05f-73ee-406c-9344-1beebb14e6ad)
 
 
 ## 	:point_right: Workshop - Segmentation and Recommendation
