@@ -40,7 +40,7 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 
 ## 	:point_right: Workshop - Segmentation and Recommendation
 ### :white_check_mark: Python code
-> * [Cleansing json file format]()
+> * [Cleansing json file format](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2305_Segmentation%20and%20Recommendation/Cleasning%20json.ipynb)
 > * [Preparing variables (Ent_Downline and Sponsor_Downline)](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2305_Segmentation%20and%20Recommendation/Preparing%20variables.ipynb)
 > * [Product Recommendation](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2305_Segmentation%20and%20Recommendation/Recommendation_model_final.ipynb)
 
