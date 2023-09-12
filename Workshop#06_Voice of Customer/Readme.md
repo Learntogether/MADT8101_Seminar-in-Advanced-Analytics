@@ -6,7 +6,7 @@
 * Social VOC คือ เสียงหรือความเห็นของลูกค้าที่ปรากฎอยู่ใน Social Media Platform ต่าง ๆ เช่น Facebook, Twitter รวมถึงหากบริษัทมีการขายผลิตภัณฑ์/บริการผ่านช่องทางออนไลน์ (e-commerce) ต่าง ๆ
 * Survey VOC คือ เสียงหรือความเห็นของลูกค้าที่บริษัทได้จากแบบสอบถาม (Survey) ที่จัดทำขึ้นเพื่อเก็บข้อมูลความเห็นของลูกค้าโดยตรง
   
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcca7eaa-9412-4467-a8ab-795a0e905d4d)
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/318b1cc7-69a9-43b7-b9c4-1da99798cbb2)
 
 _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 
@@ -26,7 +26,7 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 
 นอกจากนี้ LDA ยังถือเป็น Generative Model หมายความว่า หลังจากที่เราเรียนรู้ความน่าจะเป็นต่าง ๆ จากเอกสาร และคำ ที่เรามีแล้ว การจะสร้างเอกสารใหม่ก็ไม่ใช่เรื่องยากอะไร ก็แค่สุ่ม topic และสุ่มคำจาก topic นั้นมาสร้างเอกสารใหม่ สำหรับวิธีการ generate เอกสารใหม่นั้น เค้าก็เรียกกันกลาง ๆ กันว่า Generative Process
 
- ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/a71be106-334f-43a7-871b-95965b4f6940)
+![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/48f2f7bf-7fcf-439e-a26b-c7ceb342622f)
 
  _แหล่งที่มาข้อมูล: https://pongsakorn-jrc.medium.com/%E0%B8%A3%E0%B8%B9%E0%B9%89%E0%B8%88%E0%B8%B1%E0%B8%81%E0%B8%81%E0%B8%B1%E0%B8%9A-latent-dirichlet-allocation-part-1-2495acfcda86_
 
@@ -41,14 +41,16 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 > pandas, pythainlp, gensim, pendas.gensim, pyLDAvis, corpora and models
 
 ### :white_check_mark: Exploratory Data Analysis (EDA)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/362d1dd1-76e4-4d01-abb3-675177bd42a9)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/8cb1b1e9-8505-4e4c-8215-e5f6ad12a00e)
 
 ### :white_check_mark: Tokenize Words and Create Dictionary
 > Remove repeated with no meaning word, then split word by comma (,) before put in dictionary (word bucket).
 > ```
 > removed_words = [' ', ',', ' ,', '\n', 'ร้าน', '(', ')', 'เกาหลี','โค','เรียน','ทาวน์', 'Restaurant', 'Korean','korean','town','Doorae','doorae','DooRae', 'อาหาร','กิน','ทาน']
 > ```
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/6590d91a-59d2-497c-abbf-98e4a859477f)
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7b359856-cfce-4c08-8a4c-d71ff93a2948)
+>
 > ```
 > print(dictionary.token2id.keys())
 > Result:
@@ -57,7 +59,7 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 
 ### :white_check_mark: Topic Modelling
 > number of topic = 7
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/874f387a-445c-4a2d-8fe6-f7fa8cd34b97)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/64111896-0472-4c96-95a9-201d513df254)
 
 ### :white_check_mark: Word Cloud
 > Run word cloud and plot graph with thai font, so we have to import libralies (maplotlib.pyplot, numpy) and define paht for thai font as follows:
@@ -81,7 +83,8 @@ _ภาพจาก: https://www.talkwalker.com/blog/voice-of-the-customer_
 > plt.show()
 > ```
 > 
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dcd978be-eec9-4b02-a155-0e483323b5b7)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/647810bb-6e5d-4163-8f83-13dcc9403571)
+
 > 
 ### :white_check_mark: Pros and Cons of word clouds as visualizations
 > _**Pros:**_
