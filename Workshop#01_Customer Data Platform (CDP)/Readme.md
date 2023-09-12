@@ -45,7 +45,7 @@ _ภาพจาก: Customer Data Platform: The Basics and the Benefits | APSIS
    * **การจัดการกับข้อมูลของลูกค้า(Customer Data) เกิดความเป็นระเบียบ**
      ทำให้การจัดการข้อมูลลูกค้าเกิดความเป็นระเบียบ และทำให้กระบวนการต่าง ๆ ง่ายขึ้นอย่างมาก เพราะข้อมูลที่ได้มานั้นเป็นข้อมูลจำนวนมาก และทุกข้อมูลล้วนมีความสำคัญต่อการตลาด ในการนำมาวิเคราะห์ข้อมูล เพื่อทำการตลาดต่อไป CDP จึงเข้ามาช่วยเหลือเรื่องการจัดการกับข้อมูลให้ง่ายมากยิ่งขึ้น
      
-## :point_right: Designed Customer Data Platform
+## :point_right: Workshop - Designed Customer Data Platform
 ตัวอย่างการออกแบบ CDP เบื้องต้นสำหรับธนาคาร เพื่อระบุข้อมูลที่เกี่ยวข้องกับ Customer ในแต่ละช่องทาง รวมถึงตัวอย่าง Analysis และ Actions จากข้อมูลที่รวบรวมไว้ใน CDP
 ### :white_check_mark: Datasource		
 ![image](https://github.com/Learntogether/Workshop01_Customer-Data-Platform-CDP-/assets/136689632/652d17f6-53c5-4979-989a-e3c7e1af2e9c)
