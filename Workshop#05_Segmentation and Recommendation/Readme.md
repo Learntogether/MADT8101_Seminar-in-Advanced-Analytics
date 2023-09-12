@@ -108,7 +108,3 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 >
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/68b4216f-2167-4b1d-ad0c-5f2da797f040)
 > 
-
-## 	:point_right: Further Analysis for next best actions
-* Customer Segmentation Movement
-* 
