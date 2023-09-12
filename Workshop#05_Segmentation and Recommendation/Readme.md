@@ -40,8 +40,8 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 
 ## 	:point_right: Workshop - Segmentation and Recommendation
 ### :white_check_mark: Python code
-> * Cleasing json file format
-> * Preparing variables (Ent_Downline and Sponsor_Downline)
+> * [Cleansing json file format]()
+> * [Preparing variables (Ent_Downline and Sponsor_Downline)](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2305_Segmentation%20and%20Recommendation/Preparing%20variables.ipynb)
 > * [Product Recommendation](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2305_Segmentation%20and%20Recommendation/Recommendation_model_final.ipynb)
 
 ### :white_check_mark: Understand business
@@ -114,5 +114,5 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 > 
 
 ## 	:triangular_flag_on_post: Further analysis for next best actions
-* **Customer Movement Analysis** - เพื่อวิเคราะห์พฤติกรรมของลูกค้า ณ ช่วงเวลาใด เวลาหนึ่ง ทำให้ทราบพฤติกรรมที่เปลี่ยนแปลงไป และปรับกลยุทธ์ทางการตลาดให้สอดคล้องกับลูกค้า หรือกระตุ้นลูกค้าเพิ่มขึ้น
-* **Voice of Customers / Sentiment Analysis** - เพื่อวิเคราะห์มุมมองของลูกค้าที่มีต่อบริษัท feedback ต่าง ๆ เปรียบเทียบกับคู่แข่งในอุตสาหกรรม และเพื่อพัฒนาผลิตภัณฑ์/บริการ/กระบวนการในอนาคต
+* **Customer Movement Analysis:** เพื่อวิเคราะห์พฤติกรรมของลูกค้า ณ ช่วงเวลาใด เวลาหนึ่ง ทำให้ทราบพฤติกรรมที่เปลี่ยนแปลงไป และปรับกลยุทธ์ทางการตลาดให้สอดคล้องกับลูกค้า หรือกระตุ้นลูกค้าเพิ่มขึ้น
+* **Voice of Customers / Sentiment Analysis:** เพื่อวิเคราะห์มุมมองของลูกค้าที่มีต่อบริษัท feedback ต่าง ๆ เปรียบเทียบกับคู่แข่งในอุตสาหกรรม และเพื่อพัฒนาผลิตภัณฑ์/บริการ/กระบวนการในอนาคต
