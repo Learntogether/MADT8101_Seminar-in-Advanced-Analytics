@@ -37,30 +37,78 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 
 
 ## 	:point_right: Workshop - Segmentation and Recommendation
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/d045bd62-309f-450b-b91b-8038a9bc677d)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/cac4b55b-75f0-480c-bbc8-0851b95b3fb6)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/620901b1-e8d0-4ff2-8d79-a29379385e66)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b87c2ad-8173-438f-81ea-8af5e126fb88)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/b11bfa3d-ffbd-47d3-8731-a75516ca85af)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/68bf89a5-ff2f-481b-a2a1-d28a2bf48750)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/98f99177-b5f7-4a6e-992b-f1473bebc456)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/2421645f-2b51-48a4-94c9-32398da047fc)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1b043da8-e841-4038-9d79-0197ccb6f108)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/22b0d100-0a58-4fab-a61b-baa74b9c39d4)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7e7deddb-adfd-4552-aeaa-386cb5c10fde)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1f4fd621-e7cd-457b-a1d5-2ca61f76f717)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1dec1e5c-e678-48c8-861a-8916b255e971)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7cb2ef88-1924-489a-9333-14f5037e74bc)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/216a55e2-dcc8-4a5f-8022-896914a04742)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/90ea1a4e-3523-4d9a-932d-170c79b79f1e)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0ecbc949-3420-4c40-bbc3-5e7c4c76feb5)
-![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/358c4e2d-7919-4d5f-b465-4ec90c57adc6)
+### :white_check_mark: Python code
+> * Cleasing json file format
+> * Preparing variables (Ent_Downline and Sponsor_Downline)
+> * [Product Recommendation](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/blob/main/Workshop%2305_Segmentation%20and%20Recommendation/Recommendation_model_final.ipynb)
+
+### :white_check_mark: Understand business
+> **Business:** A a Social Network Marketing organisation
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/9b87c2ad-8173-438f-81ea-8af5e126fb88)
+
+### :white_check_mark: Define Analysis Objective
+> **Analysis Objective:** Create a personalized marketing through customer segmentation and product recommendation system.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/68bf89a5-ff2f-481b-a2a1-d28a2bf48750)
+
+### :white_check_mark: Data Pre-Processing
+> Determined to drop some users who have no transaction, also users who joined before the Company founded.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/2421645f-2b51-48a4-94c9-32398da047fc)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1b043da8-e841-4038-9d79-0197ccb6f108)
+
+### :white_check_mark: Exploratory Data Analysis (EDA) and Preparation by DATAIKU
+> :green_circle: **Sanity check:** Understand the structure of dataset, then check outlier and missing value.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/7e7deddb-adfd-4552-aeaa-386cb5c10fde)
+>
+> :green_circle: **Features Preparation:** Preparing the features for train the model, then generate customer single view and EDA the correlation and PCA of variables.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1dec1e5c-e678-48c8-861a-8916b255e971)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/96d4960a-dbf6-4970-b993-b9811273812d)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1bcb7f94-2949-4f94-8ab9-75e52a86579c)
 
 
+### :white_check_mark: Segmentation and Actions
+> :green_circle: **Segmentation:** Segmentation by Auto-ML Clustering module of DATAIKU with the K-Mean algorithm. I decided to split customers into 4 segments based on silhouette score, Elbow method and the Customer's character of each segments.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/0ecbc949-3420-4c40-bbc3-5e7c4c76feb5)
+> :green_circle: The features that I selected to train the model, the right-side graph shows the percentage important of each variable that effect to the model.
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/358c4e2d-7919-4d5f-b465-4ec90c57adc6)
+>
+> :green_circle: **Intepret results and Actions**
+> 
+> 
 
+### :white_check_mark: Recommendation
+> :green_circle: **Product recommendation** by using Content based and Collaborative filtering.
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/d2928b7b-a50e-4a15-8dc8-f689b18bc032)
+>
+> :green_circle: **Data for Recommendation System** Using DATAIKU for Group the data by ent, product_cdoe and sum of Product_Qty, then mapping the cluster_labels from segmentation process.
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/73a7d8d1-0a36-4350-bb60-2a92496800c3)
+>
+> :green_circle: **Libraries:** pandas, cosine_similarity and csr_matrix.
+> ```
+> # Import necessary libraries
+> import pandas as pd
+> from sklearn.metrics.pairwise import cosine_similarity
+> from scipy.sparse import csr_matrix
+> ```
+> 
+> :green_circle: **Create the matrix:** User to Item, Item to Item and User to User.
+> 
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/77238ca1-86a6-4f14-a80b-000790c5231c)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/82b7992f-c795-4181-80a8-4bf874243fd0)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/4081e112-80bf-4517-8468-1540555e93db)
+>
+> :green_circle: **Recommend items:** Recommend items based on the similarity items that others users buy with this product.
+> Select the 0C1CC1, then recommend top 10 product with highest similarity score.
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/47f91afc-a97d-463b-ac92-586c04df38e5)
+> 
+> :green_circle: **Recommend items for user:** Recommend item of each user by the similarity of others user basket.
+> Random user for recommend the products.
+>
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/68b4216f-2167-4b1d-ad0c-5f2da797f040)
+> 
 
-
-
-## 	:point_right: Further Analysis
+## 	:point_right: Further Analysis for next best actions
 * Customer Segmentation Movement
 * 
