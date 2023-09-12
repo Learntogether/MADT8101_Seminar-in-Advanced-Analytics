@@ -112,3 +112,7 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 >
 > ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/2f6f7263-3be6-4695-bce6-869e22c25567)
 > 
+
+## 	:triangular_flag_on_post: Further analysis for next best actions
+* **Customer Movement Analysis** - เพื่อวิเคราะห์พฤติกรรมของลูกค้า ณ ช่วงเวลาใด เวลาหนึ่ง ทำให้ทราบพฤติกรรมที่เปลี่ยนแปลงไป และปรับกลยุทธ์ทางการตลาดให้สอดคล้องกับลูกค้า หรือกระตุ้นลูกค้าเพิ่มขึ้น
+* **Voice of Customers / Sentiment Analysis** - เพื่อวิเคราะห์มุมมองของลูกค้าที่มีต่อบริษัท feedback ต่าง ๆ เปรียบเทียบกับคู่แข่งในอุตสาหกรรม และเพื่อพัฒนาผลิตภัณฑ์/บริการ/กระบวนการในอนาคต
