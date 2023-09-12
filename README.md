@@ -10,10 +10,10 @@
 Workshop หลักของ class นี้ จะมีทั้งหมด 6 topics ดังนี้
 
 :green_circle:**[Workshop#01_Customer Data Platform (CDP)](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2301_Customer%20Data%20Platform%20(CDP))**
-  > การวิเคราะห์....
+  > Workshop แรกเรามาเริ่มต้นกันด้วยการทำความเข้าใจ CDP ว่าคืออะไร มีความสำคัญอย่างไร ข้อมูลที่เกี่ยวกับลูกค้ามีอะไรบ้าง เข้ามาจากช่องทางใด และมีข้อมูลใดที่สำคัญสำหรับการนำไปวิเคราะห์บ้าง รวมถึงลอง Designed CDP, Analysis method and actions เบื้องต้น
 
 :green_circle:**[Workshop#02_Customer Single View and Basic Customer Analysis](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2302_Customer%20Single%20View%20and%20Basic%20Customer%20Analysis)**
-  > การวิเคราะห์....
+  > สำหรับ workshop นี้ หลังจากที่เราเข้าใจแล้วว่า CDP คืออะไร หลาย ๆ คนคงพอทราบแล้วว่าข้อมูลใน CDP ต้องมีเยอะมากแน่ แล้วหากเราจะนำไปวิเคราะห์ต้องมาคอยเรียกใช้ คอยคำนวณข้อมูลเหล่านั้นใหม่ทุก ๆ ครั้งคงไม่ดีแน่ ดังนั้น จึงมีการออกแบบ Customer Single View ซึ่งจะมีการรวบรวมข้อมูลต่าง ๆ ของลูกค้าแต่ละรายซึ่งเยอะมากหลายบรรทัด ให้ออกมาอยู่ในบรรทัดเดียวเพื่อให้ง่ายต่อการนำไปวิเคราะห์ต่อ และรวบรวม features หรือ Variables ต่าง ๆ ที่จำเป็นไว้ ซึ่ง workshop นี้ เราจะมาลองออกแบบ Customer Single View และทำ Customer analysis เบื้องต้น
 
 :green_circle:**[Workshop#03_Customer Lifetime Value](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/tree/main/Workshop%2303_Customer%20Lifetime%20Value)**
   > การวิเคราะห์....
