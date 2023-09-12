@@ -35,7 +35,7 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 > 
 > _ตัวอย่างการใช้งาน_: การแบ่งกลุ่มพืช หรือสิ่งมีชีวิต, การแบ่งกลุ่มสินค้า 
 > 
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/f8dff05f-73ee-406c-9344-1beebb14e6ad)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/dc47ce28-ecd4-4357-8e50-9995cfe33cf5)
 
 
 ## 	:point_right: Workshop - Segmentation and Recommendation
