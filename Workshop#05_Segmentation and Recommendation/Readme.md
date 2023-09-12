@@ -80,11 +80,11 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 ### :white_check_mark: Recommendation
 > :green_circle: **Product recommendation** by using Content based and Collaborative filtering.
 >
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/d2928b7b-a50e-4a15-8dc8-f689b18bc032)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/1e7b98f0-94e2-42d9-a0cb-3c7a562fdd54)
 >
 > :green_circle: **Data for Recommendation System** Using DATAIKU for Group the data by ent, product_cdoe and sum of Product_Qty, then mapping the cluster_labels from segmentation process.
 >
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/73a7d8d1-0a36-4350-bb60-2a92496800c3)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/499157cd-7338-4982-870a-be8630fee63b)
 >
 > :green_circle: **Libraries:** pandas, cosine_similarity and csr_matrix.
 > ```
@@ -96,17 +96,17 @@ _ข้อมูลจาก: https://bigdata.go.th/big-data-101/4-types-of-clus
 > 
 > :green_circle: **Create the matrix:** User to Item, Item to Item and User to User.
 > 
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/77238ca1-86a6-4f14-a80b-000790c5231c)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/82b7992f-c795-4181-80a8-4bf874243fd0)
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/4081e112-80bf-4517-8468-1540555e93db)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/4af49a85-ca67-45a3-811f-502316329523)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/3596f85b-4c20-4d23-ab29-9f79df91c572)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/67b4674b-6d00-40fb-9674-2c8d8f09617e)
 >
 > :green_circle: **Recommend items:** Recommend items based on the similarity items that others users buy with this product.
 > Select the 0C1CC1, then recommend top 10 product with highest similarity score.
 >
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/47f91afc-a97d-463b-ac92-586c04df38e5)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/828d045a-3888-4e66-9670-2805fcc7c62a)
 > 
 > :green_circle: **Recommend items for user:** Recommend item of each user by the similarity of others user basket.
 > Random user for recommend the products.
 >
-> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/68b4216f-2167-4b1d-ad0c-5f2da797f040)
+> ![image](https://github.com/Learntogether/MADT8101_Seminar-in-Advanced-Analytics/assets/136689632/2f6f7263-3be6-4695-bce6-869e22c25567)
 > 
